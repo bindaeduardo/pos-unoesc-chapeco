@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aula HTML5</title>
+
+	<script src="cnpj.js" ></script>
+
+	<script type="text/javascript">
+		function vCNPJ(input){
+			//input.setCustomValidity(validaCPF(i.value)? '' : 'CPF Invalido');
+			console.log(input);
+			var msg = "";
+
+			if(!validaCNPJ(input.value)){
+				msg = "CNPJ Invalido";
+			}
+			input.setCustomValidity(msg);
+		}	
+
+	</script>
+</head>
+<style type="text/css">
+	.menu li{
+		display: inline-block;
+	}
+
+</style>
+<body>
+	<details>
+		<summary>Teste de summary</summary>
+		<progress value="1435" max="3333"></progress>
+		
+	</details>
+	<dl>
+		<dt>Tamanho total:</dt>
+		<dd>39.244kb</dd>
+		<dt>Transferido:</dt>
+		<dd>1553b</dd>
+		<dt>Nome do arquivo:</dt>
+		<dd>cocaina.nose</dd>
+	</dl>
+</body>
+</html>

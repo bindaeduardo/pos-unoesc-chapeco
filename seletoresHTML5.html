@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Seletore</title>
+</head>
+<body>
+  <nav>
+  	<ul id="menu-list">
+  		<li class="item">1</li>
+  		<li class="item">2</li>
+  		<li class="item">3</li>
+  		<li class="item">4</li>
+  	</ul>
+  </nav>
+  <script>
+    var itens = document.getElementsByClassName("item");
+    console.log(itens);
+
+    function adicionaItem(valor){
+    	document.getElementById("menu-list").innerHTML += '<li>'+valor+'</li>';
+    }
+
+    adicionaItem("5");
+    adicionaItem("6");
+  </script>
+</body>
+</html>

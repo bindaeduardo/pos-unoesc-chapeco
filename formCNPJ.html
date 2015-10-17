@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aula HTML5</title>
+	<script type="text/javascript" src="cnpj.js"></script>
+	<script>
+	  function validaCNPJ(input){
+	  	var mensagem = '';
+
+	  	if(!validaCnpj(input.value)){
+	  		mensagem = 'CNPJ Inválido!';
+	  	}
+	  	input.setCustomValidity(mensagem);
+	  }
+	  </script>
+</head>
+<body>
+  <form>
+  	<label>CNPJ:<input name="cpf" oninput="validaCNPJ(this)"></label>
+  	<input type="submit" value="Enviar">
+  </form>
+</body>
+</html> 
