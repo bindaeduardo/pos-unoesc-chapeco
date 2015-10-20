@@ -52,3 +52,41 @@ As unidades de medida CSS válidas podem ser usadas em componentes que possuem a
 	 background: lime;
 	}	
 #####Referencia:http://www.maujor.com/tutorial/css3-funcao-css-calc.php
+
+###Funcionalidade: text-shadow
+#####O que é?
+ É uma funcionalidade na qual dispõe de um efeito de sombreamento em textos.
+#####Onde usar?
+ Pode ser utilizado em elementos de texto com h1,h2,h3, etc...
+#####Como usar?
+	seletor { 
+	text-shadow: param-1 param-2 param-3 cor; 
+	} 
+
+Onde:
+param-1: é o deslocamento da sombra para a direita (caso o valor seja positivo) ou para a esquerda (caso o valor seja negativo);
+param-2: é o deslocamento da sombra para baixo (caso o valor seja positivo) ou para cima (caso o valor seja negativo);
+param-3: é o raio para um efeito blur na sombra;
+cor: é a corque será dada à sombra.
+#####Exemplo de uso
+	h1 {
+	    font-size:30px; 
+	    color:black; 
+	    text-shadow: 2px -2px lime; 
+	    }	
+#####Referencia:http://www.maujor.com/tutorial/css3-text-shadow.php, http://www.w3schools.com/cssref/css3_pr_text-shadow.asp
+
+###Funcionalidade: box-shadow
+#####O que é?
+ É uma funcionalidade na qual permite fazer um efeito de sombra em boxes(caixas).
+#####Onde usar?
+ Pode ser utilizado em elementos como divs.
+#####Como usar?
+	seletor { box-shadow: inset offsetX offsetY raioBlur spread cor; }
+Com relação aos parâmetros segue a mesma linha de raciocínio da funcionalidade text-shadow, onde o primeiro parâmetro define o deslocamento horizontal da sombra, o segundo parametro o deslocamento vertical da sombra, o terceiro o efeito da sombra e o quarto a cor que será dada à sombra do elemento.
+#####Exemplo de uso
+	div {
+	    box-shadow: 10px 10px 5px #888888;
+	}	
+#####Referencia:http://www.w3schools.com/cssref/css3_pr_box-shadow.asp, http://www.maujor.com/tutorial/interativo-css3/
+
