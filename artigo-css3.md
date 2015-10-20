@@ -20,7 +20,7 @@ http://blog.caelum.com.br/css3-e-o-futuro-da-web/
 A propriedade CSS3 border-radius destina-se a definir bordas arredondadas. O arredondamento das bordas é feito com declaração de dois valores CSS de medida; o primeiro define o eixo horizontal (rx) de 1/4 de uma elipse e o segundo o eixo vertical (ry). O quarto de elipse assim definida é convenientemente inserida no canto vivo do box arredondando-o. O diagrama a seguir esclarece o esquema de arredondamento.
 #####Onde usar?
 Em qualquer elemento que possui o atributo border.
-####Como usar?
+#####Como usar?
 	seletor {border-radius:
 	  [ <length> | <percentage> ]{1,4} [ / [ <length> | <percentage> ]{1,4} ]?);
 	}	
@@ -37,10 +37,10 @@ A sintaxe geral para aplicar borda arredondada é mostrada a seguir.
 
 ###Funcionalidade: calc()
 #####O que é?
-A funcionalidade calc() permite que possam ser definidos valores CSS com uso de cálculos (expressões) matemáticas, ou seja, o valor definido para a propriedade CSS é o resultado de uma expressão matemática.Os operadores matemáticos permitidos são: + (soma), - (subtração), * (multiplicação) e / (divisão).  Na expressão matemática que define o valor CSS é permitido que se misture diferentes unidades de medida.
+A funcionalidade calc() permite que possam ser definidos valores CSS com uso de cálculos (expressões) matemáticas, ou seja, o valor definido para a propriedade CSS é o resultado de uma expressão matemática.Os operadores matemáticos permitidos são: + (soma), - (subtração), * (multiplicação) e / (divisão).  Na expressão matemática que define o valor CSS é permitido que se misture diferentes unidades de medida. Vale destacar que nas operações de adição(+) e subtração(-) é necessário inserir um espaço em branco antes e depois do operador.
 #####Onde usar?
 As unidades de medida CSS válidas podem ser usadas em componentes que possuem as seguintes propriedades: comprimento, ângulo, tempo, frequência e números inteiros e fracionários.
-####Como usar?
+#####Como usar?
 	seletor { propriedade: calc(expressão matemática); }
 #####Exemplo de uso
 	div {
