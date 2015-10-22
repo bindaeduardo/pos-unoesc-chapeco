@@ -17,18 +17,21 @@
 ####Como funciona 
  Basicamente o Atomic Design funciona baseada na imagem abaixo e que será explicada a seguir:
  <img src="http://bradfrost.com/wp-content/uploads/2013/06/atomic-design.png">
+</br>
+Para exemplificar melhor a imagem acima na qual demostra o conceito de Atomic Design, podemos comparar a primeira etapa os "Átomos" como sendo as TAGs HTML ex:(inputs, buttons, labels, etc...). O passo seguinte é chamado de "Moléculas" que se trata da combinação dos átomos(tags), os "forms" HTML são um exemplo disso e de certa forma são a base de sustentação do sistema web. Seguindo o raciocínio, o passo subsequente é denominado "Organismos" que por sua vez são aglomerados de moléculas que juntas formam um conjunto ou seção mais complexa, como por exemplo o cabeçalho de uma página web. 
+
 
 
 ####Por que usá-lo, quais seus benefícios
 
 
 
-###Onde usá-lo 
+####Onde usá-lo 
 
 
 
 
-###Exemplos em cada etapa 
+####Exemplos em cada etapa 
 
 
 
