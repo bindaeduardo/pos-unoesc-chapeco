@@ -84,8 +84,8 @@ Para exemplificar melhor a imagem acima na qual demostra o conceito de Atomic De
     <nav>
         <ul>
             <li><a href="" title="Home"></a></li>
-            <li><a href="" title="Institucional"></a></li>
-            <li><a href="" title="Fale Conosco"></a></li>
+            <li><a href="" title="Community"></a></li>
+            <li><a href="" title="Our Company"></a></li>
         </ul>
     </nav>    
 	</header>
