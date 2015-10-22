@@ -88,23 +88,6 @@ O usuário pode informar através dos parâmetro resize se o redimencionamento d
 	} 	
 #####Referências:http://www.w3schools.com/css/css3_user_interface.asp
 
-###Funcionalidade: resize
-#####O que é?
- É uma funcionalidade na qual permite com que determinado elemento possa ser redimencionado pelo usuário.
-#####Onde usar?
- Pode ser utilizado em elementos como divs.
-#####Como usar?
-	seletor { resize: horizontal;
-              overflow: auto; 
-          	}
-O usuário pode informar através dos parâmetro resize se o redimencionamento do elemento será feito de forma horizontal, vertical ou amabas.
-#####Exemplo de uso
-	div {
-	    resize: horizontal;
-	    overflow: auto;
-	} 	
-#####Referências:http://www.w3schools.com/css/css3_user_interface.asp
-
 ###Funcionalidade: RGBA
 #####O que é?
  É uma nova funcionalidade do CSS3 que nos permite informarmos valores de cores RGB(Red, Green,Blue) e transparência(opacidade).
