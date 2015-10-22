@@ -26,8 +26,10 @@ Para exemplificar melhor a imagem acima na qual demostra o conceito de Atomic De
  Uma das vantagens de se utilizar o Atomic Design é que o mesmo possui uma metodologia clara e objetiva de como construir sistemas de design e também de como conseguir visualizar e apreciar o resultado partindo do abstrato(o que se está projetando) para o concreto(aquilo que foi feito). Outra vantagem que pode ser destacada é a capacidade de escalabilidade do sistema onde você pode criar elementos que se comportam adequadamente a sua própria necessidade. Pensando na equipe de design de um sistema, pode-se apontar mais uma vantagem do uso do Atomic Design sendo que ele permite que se possa vizualizar o sistema como um todo sem a necessidade de ficar verificando e analisando os layouts salvos ou feitos em outra ferramenta. 
 </br>
 ####Onde usar
+ Essa metodologia pode ser  utilizada principalmente na criação de sistema de design web.
  Uma boa maneira de como utilizar a metodologia Atomic Design é escrever um bom CSS como mostra o exemplo a seguir. Desta maneira sugere-se que denomine os componentes menores e aplique os estilos a eles. Segundo Brad Frost, ele recomenda que seja criado um arquivo separado para cada elemento.
-		 / * ----------- Elementos globais (átomos) ------------ * /
+ ```html	
+ 		 / * ----------- Elementos globais (átomos) ------------ * /
 		@import "headings";
 		@import "links";
 		@import "lists";
@@ -46,45 +48,56 @@ Para exemplificar melhor a imagem acima na qual demostra o conceito de Atomic De
 		 
 		/*----------- PAGE STRUCTURE (Templates) ------------*/
 		@import "layout";
-		 
+```		 
 </br>
 ####Exemplos de cada Etapa
   Para exemplificar melhor cada etapa desta metodologia, segue abaixo imagens e trechos de códigos fontes.
 </br>
 #####Átomos
-Exemplo em imagem:
+######Exemplo em imagem:
 <img src="http://habaneroconsulting.com/~/media/hab/insights/2014/what-is-atomic-design/2014-07-14%202-19-14%20pm.ashx?la=en&hash=8E134410619BEFFE6B8966FABBD8078D5F2E3783">
-Exemplo em código fonte:
+######Exemplo em código fonte:
+```html	
 	<label>Código:</label>
 	<input type="text" id="inputCod" name="inputCod">
+```	
 </br>
 #####Moléculas
-Exemplo em imagem:
+######Exemplo em imagem:
 <img src="http://habaneroconsulting.com/~/media/hab/insights/2014/what-is-atomic-design/2014-07-14%202-18-55%20pm.ashx?la=en&hash=082A830F516D83F3231D49734A0B3F5BEEB909D0">
-Exemplo em código fonte:
+######Exemplo em código fonte:
+```html		
 	<form>
 	    <label>Código:</label>
 	    <input type="text" name="codigo" value="" placeholder="Informe o código">
 	    <input type="submit" name="enviar" value="Enviar">
 	</form>
+```
 </br>
 #####Organismos
-Exemplo em imagem:
+######Exemplo em imagem:
 <img src="http://habaneroconsulting.com/~/media/hab/insights/2014/what-is-atomic-design/2014-07-14%202-18-30%20pm.ashx?la=en&hash=9B86E4E01E63346C27BAADC18D7C405C601A9223">
-Exemplo em código fonte:
-
+######Exemplo em código fonte:
+```html	
+   <header>
+    <img src="logomarca.jpg">
+    <nav>
+        <ul>
+            <li><a href="" title="Home"></a></li>
+            <li><a href="" title="Institucional"></a></li>
+            <li><a href="" title="Fale Conosco"></a></li>
+        </ul>
+    </nav>    
+	</header>
+```
 </br>
 #####Modelos
-Exemplo em imagem:
+######Exemplo em imagem:
 <img src="http://habaneroconsulting.com/~/media/hab/insights/2014/what-is-atomic-design/2014-07-14%202-17-48%20pm.ashx?la=en&h=833&w=1192&hash=93E04473FFA985F833ABBAB7B96F204C34C88F39">
-Exemplo em código fonte:
-
 </br>
 #####Páginas
-Exemplo em imagem:
+######Exemplo em imagem:
 <img src="http://habaneroconsulting.com/~/media/hab/insights/2014/what-is-atomic-design/2014-07-14%202-10-35%20pm.ashx?la=en&hash=7CDD0C658EC94716BFC207133435715A302931A6">
-Exemplo em código fonte:
-
 </br>
 ####Referências: 
 http://bradfrost.com/blog/post/atomic-web-design/
