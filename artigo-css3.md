@@ -3,6 +3,7 @@
 ###Disciplina: HTML5+CSS3
 ###Professor: Jean Carlo Nascimento
 ###Acadêmico(a): Eduardo Binda
+###E-mail:eduardobinda7@gmail.com
 
 ###Artigo de Revisão de CSS3
 </br></br>
@@ -32,8 +33,6 @@ As unidades de medida CSS válidas podem ser usadas em componentes que possuem a
 	 background: lime;
 	}	
 #####Referências:http://www.maujor.com/tutorial/css3-funcao-css-calc.php
-
-
 
 ###Funcionalidade: text-shadow
 #####O que é?
@@ -196,7 +195,6 @@ Sabendo que os três parâmetros inciais(red,green,blue)são informados valores 
 	  background: linear-gradient(to bottom right, red , blue); /* Standard syntax */
 	} 
 #####Referências:http://www.w3schools.com/css/css3_gradients.asp, http://www.linhadecodigo.com.br/artigo/3603/css3-gradient-criando-planos-de-fundo-com-efeito-degrade.aspx
-
 
 ###Funcionalidade: Animations
 #####O que é?
